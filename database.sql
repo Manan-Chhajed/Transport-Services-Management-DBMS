@@ -186,3 +186,21 @@ values (11502, "Honda", "SUV", "12April2019");
 
 insert into vehicle
 values (11503, "Maruti", "HatchBack", "19Dec2019"); 
+
+insert into routes
+values ("Andheri", "Borivali", 30, 400, 773);
+
+insert into routes
+values ("Mumbai", "Delhi=", 800, 9000, 774);
+
+insert into routes
+values ("Vasai", "Dadar", 85, 750, 775);
+
+insert into routes
+values ("Goregaon", "Andheri", 25, 250, 776);
+
+insert into routes
+values ("Ghatkopar", "Andheri", 120, 11100, 777);
+
+insert into routes
+values ("Chennai", "Mumbai", 750, 6000, 778);
