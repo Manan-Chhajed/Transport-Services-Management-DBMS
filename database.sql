@@ -171,3 +171,18 @@ values (549352584,84);
 
 insert into Contact_Driver
 values (849352584,82);
+
+insert into vehicle
+values (11499, "Maruti", "Sedan", "1Jan2019");   
+
+insert into vehicle
+values (11500, "Tata", "HatchBack", "24July2020"); 
+
+insert into vehicle
+values (11501, "Mercedes", "Sedan", "19Oct2021"); 
+
+insert into vehicle
+values (11502, "Honda", "SUV", "12April2019"); 
+
+insert into vehicle
+values (11503, "Maruti", "HatchBack", "19Dec2019"); 
