@@ -82,92 +82,92 @@ CREATE TABLE Journey(
 );
 
 insert into Account
-values ('sarvesh_13', 'abcd');
+values ('sarvesh_9', 'pass1');
 
 insert into Account
-values ('nikhil_13', 'efgh');
+values ('nikhil_13', 'pass2');
 
 insert into Account
-values ('manan_11', 'ijkl');
+values ('manan_11', 'pass3');
 
 insert into Account
-values ('chaitya_16', 'mnop');
+values ('chaitya_16', 'pass4');
 
 insert into Account
-values ('tejas_16', 'qrst');
+values ('tejas_16', 'pass5');
 
 
 insert into Customer
-values (34,'nikhil', 'abc', 'babar','27 oct','nikhilbabar@gmail.com', 'sarvesh_13', 'abcd');
+values (1,'Nikhil', 'middle1', 'babar','27 Oct','nikhilbabar@gmail.com', 'nikhil_13', 'pass2');
 
 insert into Customer
-values (50,'Sarvesh', 'def','Deshpande','19 sep','Sarvesh@gmail.com', 'sarvesh_13', 'abcd');
+values (2,'Sarvesh', 'middle2','Deshpande','19 Sep','sarvesh@gmail.com', 'sarvesh_9', 'pass1');
 
 insert into Customer
-values (56,'Manan', 'ghi','Chajed','4 dec','Manan@gmail.com','manan_11', 'ijkl');
+values (3,'Manan', 'middle3','Chhajed','28 Aug','manan@gmail.com','manan_11', 'pass3');
 
 insert into Customer
-values (35,'chaitya', 'jkl','dobariya','9 august','chaitya@gmail.com','chaitya_16', 'mnop');
+values (4,'Chaitya', 'middle4','Dobariya','9 Jan','chaitya@gmail.com','chaitya_16', 'pass4');
 
 insert into Customer
-values (10,'Tejas', 'mno','durgudhe','10 oct','Tejas@gmail.com','tejas_16', 'qrst');
+values (5,'Tejas', 'middle5','Durgudhe','10 Oct','tejas@gmail.com','tejas_16', 'pass5');
 
 
 insert into Contact_Customer
-values (948939299,34);
+values (948939299,1);
 
 insert into Contact_Customer
-values (849302584,50);
+values (849302584,2);
 
 insert into Contact_Customer
-values (948939299,56);
+values (948939299,3);
 
 insert into Contact_Customer
-values (849352584,35);
+values (849352584,4);
 
 insert into Contact_Customer
-values (844962584,10);
+values (844962584,5);
 
 
 insert into Account
-values ('ajay_13', 'abcd');
+values ('ajay_13', 'pass42');
 
 insert into Account
-values ('vijay_13', 'efgh');
+values ('vijay_13', 'pass43');
 
 insert into Account
-values ('bijay_11', 'ijkl');
+values ('bijay_11', 'pass44');
 
 insert into Account
-values ('jay_16', 'mnop');
+values ('jay_16', 'pass45');
     
 
 insert into Driver
-values (44,'ajay','kumar',10,4,"ajay@gmail.com",'ajay_13', 'abcd');
+values (81,'Ajay','Kumar',10,4,"ajay@gmail.com",'ajay_13', 'pass42');
 
 insert into Driver
-values (41,'vijay','kumar',11,5,"vijay@gmail.com",'vijay_13', 'efgh');
+values (82,'Vijay','Kumar',11,5,"vijay@gmail.com",'vijay_13', 'pass43');
 
 insert into Driver
-values (90,'bijay','kumar',20,4,"bijay@gmail.com",'bijay_11', 'ijkl');
+values (83,'Bijay','Kumar',20,4,"bijay@gmail.com",'bijay_11', 'pass44');
 
 insert into Driver
-values (34,'jay','kumar',10,4,"jay@gmail.com",'jay_16', 'mnop');
+values (84,'Jay','Kumar',10,4,"jay@gmail.com",'jay_16', 'pass45');
 
 insert into Contact_Driver
-values (849352584,34);
+values (849352584,81);
 
 insert into Contact_Driver
-values (449352584,34);
+values (449352584,8);
 
 insert into Contact_Driver
-values (849354584,44);
+values (849354584,83);
 
 insert into Contact_Driver
-values (993352584,44);
+values (993352584,84);
 
 insert into Contact_Driver
-values (549352584,90);
+values (549352584,84);
 
 insert into Contact_Driver
-values (849352584,41);
+values (849352584,82);
